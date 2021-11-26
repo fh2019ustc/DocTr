@@ -26,7 +26,7 @@ Any questions or discussions are welcomed!
 - Please compare the scores according to your Matlab version.
 
 
-### Citation
+## Citation
 
 If you find this code useful for your research, please use the following BibTeX entry.
 
