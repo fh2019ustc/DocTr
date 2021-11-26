@@ -11,7 +11,6 @@ from position_encoding import build_position_encoding
 
 
 class attnLayer(nn.Module):
-
     def __init__(self, d_model, nhead=8, dim_feedforward=2048, dropout=0.1,
                  activation="relu", normalize_before=False):
         super().__init__()
@@ -44,8 +43,6 @@ class attnLayer(nn.Module):
                               key_padding_mask=tgt_key_padding_mask)[0]
         tgt = tgt + self.dropout1(tgt2)
         tgt = self.norm1(tgt)
-        # print(len(memory_list))
-        # print(len(memory_list[0]))
         for memory, multihead_attn, norm2, dropout2, m_pos in zip(memory_list, self.multihead_attn_list, self.norm2_list, self.dropout2_list, memory_pos):
             # print(tgt.shape)
             # print(memory.shape)
