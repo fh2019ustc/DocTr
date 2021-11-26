@@ -10,7 +10,7 @@
 
 ## Training
 For geometric unwarping, we train the GeoTr using the [Doc3d](https://github.com/fh2019ustc/doc3D-dataset) dataset.
-For illumination correction, we train the IllTr for illumination correction the [DRIC](https://github.com/xiaoyu258/DocProj) dataset.
+For illumination correction, we train the IllTr for illumination correction based on the [DRIC](https://github.com/xiaoyu258/DocProj) dataset.
 
 
 ## Demo 
