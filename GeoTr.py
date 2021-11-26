@@ -44,10 +44,6 @@ class attnLayer(nn.Module):
         tgt = tgt + self.dropout1(tgt2)
         tgt = self.norm1(tgt)
         for memory, multihead_attn, norm2, dropout2, m_pos in zip(memory_list, self.multihead_attn_list, self.norm2_list, self.dropout2_list, memory_pos):
-            # print(tgt.shape)
-            # print(memory.shape)
-            # print(pos.shape)
-            # print(m_pos.shape)
             tgt2 = multihead_attn(query=self.with_pos_embed(tgt, pos),
                                        key=self.with_pos_embed(memory, m_pos),
                                        value=memory, attn_mask=memory_mask,
