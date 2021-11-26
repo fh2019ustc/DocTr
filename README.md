@@ -21,7 +21,7 @@ Any questions or discussions are welcomed!
     python inference.py
     ```
 
-## Evaluation:
+## Evaluation
 - We use the same evaluation code as [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html) benchmark dataset based on Matlab 2019a. 
 - Please compare the scores according to your Matlab version.
 
