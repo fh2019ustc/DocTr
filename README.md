@@ -1,4 +1,4 @@
-**Good news! Our new work exhibits state-of-the-art performances on DocUNet benchmark dataset: [DocScanner](https://arxiv.org/pdf/2110.14968.pdf)**
+**Good news! Our new work exhibits state-of-the-art performances on [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html) benchmark dataset: [DocScanner](https://arxiv.org/pdf/2110.14968.pdf)**
 
 # DocTr
 
