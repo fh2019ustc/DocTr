@@ -6,7 +6,6 @@
 > ACM MM 2021 Oral
 
 
-
 ## Demo 
 1. Download the pretrained models [here](https://drive.google.com/drive/folders/1eZRxnRVpf5iy3VJakJNTKWw5Zk9g-F_0?usp=sharing) and put them to `$ROOT/model_pretrained/`.
 2. Test:
