@@ -13,7 +13,6 @@ Any questions or discussions are welcomed!
 For geometric unwarping, we train the GeoTr using the [Doc3d](https://github.com/fh2019ustc/doc3D-dataset) dataset.
 For illumination correction, we train the IllTr for illumination correction based on the [DRIC](https://github.com/xiaoyu258/DocProj) dataset.
 
-
 ## Demo 
 1. Download the pretrained models [here](https://drive.google.com/drive/folders/1eZRxnRVpf5iy3VJakJNTKWw5Zk9g-F_0?usp=sharing) and put them to `$ROOT/model_pretrained/`.
 2. Test:
@@ -21,9 +20,8 @@ For illumination correction, we train the IllTr for illumination correction base
     python inference.py
     ```
 
-
-### Evaluation (Image Metrics):
-We use the same evaluation code as [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html) benchmark dataset based on Matlab 2019a. Please compare the scores according to your Matlab version. 
+### Evaluation:
+We use the same evaluation code as [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html) benchmark based on Matlab 2019a. Please compare the scores according to your Matlab version. 
 
 
 ### Citation
