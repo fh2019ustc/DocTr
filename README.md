@@ -1,4 +1,4 @@
-*Good news! Our new work exhibits state-of-the-art performances on [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html) benchmark dataset: [DocScanner](https://arxiv.org/pdf/2110.14968.pdf)*
+**Good news! Our new work exhibits state-of-the-art performances on [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html) benchmark dataset: [DocScanner](https://arxiv.org/pdf/2110.14968.pdf)**
 
 # DocTr
 
@@ -7,6 +7,7 @@
 > [DocTr: Document Image Transformer for Geometric Unwarping and Illumination Correction](https://arxiv.org/pdf/2110.12942.pdf)  
 > ACM MM 2021 Oral
 
+Any questions or discussions are welcomed!
 
 ## Training
 For geometric unwarping, we train the GeoTr using the [Doc3d](https://github.com/fh2019ustc/doc3D-dataset) dataset.
@@ -19,7 +20,12 @@ For illumination correction, we train the IllTr for illumination correction base
     ```
     python inference.py
     ```
-    
+
+
+### Evaluation (Image Metrics):
+We use the same evaluation code as [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html) based on Matlab 2019a. Please compare the scores according to your Matlab version. 
+
+
 ### Citation
 
 If you find this code useful for your research, please use the following BibTeX entry.
