@@ -23,7 +23,7 @@ For illumination correction, we train the IllTr for illumination correction base
 
 
 ### Evaluation (Image Metrics):
-We use the same evaluation code as [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html) based on Matlab 2019a. Please compare the scores according to your Matlab version. 
+We use the same evaluation code as [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html) benchmark dataset based on Matlab 2019a. Please compare the scores according to your Matlab version. 
 
 
 ### Citation
