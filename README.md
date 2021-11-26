@@ -14,7 +14,7 @@ Any questions or discussions are welcomed!
 - For geometric unwarping, we train the GeoTr network using the [Doc3d](https://github.com/fh2019ustc/doc3D-dataset) dataset.
 - For illumination correction, we train the IllTr network based on the [DRIC](https://github.com/xiaoyu258/DocProj) dataset.
 
-## Demo 
+## Inference 
 1. Download the pretrained models [here](https://drive.google.com/drive/folders/1eZRxnRVpf5iy3VJakJNTKWw5Zk9g-F_0?usp=sharing) and put them to `$ROOT/model_pretrained/`.
 2. Test:
     ```
