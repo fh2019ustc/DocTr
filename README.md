@@ -16,9 +16,13 @@ Any questions or discussions are welcomed!
 
 ## Inference 
 1. Download the pretrained models [here](https://drive.google.com/drive/folders/1eZRxnRVpf5iy3VJakJNTKWw5Zk9g-F_0?usp=sharing) and put them to `$ROOT/model_pretrained/`.
-2. Test:
+2. Geometric unwarping:
     ```
     python inference.py
+    ```
+3. Geometric unwarping and illumination rectification:
+    ```
+    python inference.py --ill_rec True
     ```
 
 ## Evaluation
