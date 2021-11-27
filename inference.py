@@ -79,11 +79,11 @@ def rec(opt):
     # reload geometric unwarping model
     reload_model(GeoTr_Seg_model.GeoTr, opt.GeoTr_path)
     
-    IllTr_model = IllTr()
+    IllTr_model = IllTr().cuda()
     # reload illumination rectification model
-    reload_model(IllTr_model.cuda(), opt.IllTr_path)
+    reload_model(IllTr_model, opt.IllTr_path)
     
-    # To eval
+    # To eval mode
     GeoTr_Seg_model.eval()
     IllTr_model.eval()
   
@@ -112,8 +112,9 @@ def rec(opt):
             io.imsave(opt.gsave_path + name + '_geo' + '.png', img_geo)  # save
             
             # illumination rectification
-            ill_savep = opt.isave_path + name + '_ill' + '.png'
-            rec_ill(IllTr_model, img_geo, saveRecPath=ill_savep)
+            if opt.ill_rec:
+                ill_savep = opt.isave_path + name + '_ill' + '.png'
+                rec_ill(IllTr_model, img_geo, saveRecPath=ill_savep)
         
         print('Done: ', img_path)
 
@@ -126,6 +127,7 @@ def main():
     parser.add_argument('--Seg_path',  default='./model_pretrained/epoch95_iter3644.pth')
     parser.add_argument('--GeoTr_path',  default='./model_pretrained/epoch_35_iter_12757.pth')
     parser.add_argument('--IllTr_path',  default='./model_pretrained/epoch_25_iter_113.pth')
+    parser.add_argument('--ill_rec',  default=False)
     
     opt = parser.parse_args()
 
