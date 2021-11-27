@@ -9,6 +9,7 @@ import torch.nn.functional as F
 import copy
 from typing import Optional
 
+
 class attnLayer(nn.Module):
     def __init__(self, d_model, nhead=8, dim_feedforward=2048, dropout=0.1,
                  activation="relu", normalize_before=False):
@@ -109,9 +110,9 @@ class TransDecoder(nn.Module):
         pos = self.position_embedding(torch.ones(imgf.shape[0], imgf.shape[2], imgf.shape[3]).bool().cuda())  # torch.Size([1, 128, 36, 36])
         
         bs, c, h, w = imgf.shape
-        imgf = imgf.flatten(2).permute(2, 0, 1)  # torch.Size([1296, 1, 256])
+        imgf = imgf.flatten(2).permute(2, 0, 1)
         query_embed = query_embed.unsqueeze(1).repeat(1, bs, 1)
-        pos = pos.flatten(2).permute(2, 0, 1)  # torch.Size([1296, 1, 256])
+        pos = pos.flatten(2).permute(2, 0, 1)
 
         for layer in self.layers:
             query_embed = layer(query_embed, [imgf], pos=pos, memory_pos=[pos, pos])
