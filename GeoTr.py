@@ -1,4 +1,5 @@
 from extractor import BasicEncoder
+from position_encoding import build_position_encoding
 
 import argparse
 import numpy as np
@@ -7,8 +8,6 @@ from torch import nn, Tensor
 import torch.nn.functional as F
 import copy
 from typing import Optional
-from position_encoding import build_position_encoding
-
 
 class attnLayer(nn.Module):
     def __init__(self, d_model, nhead=8, dim_feedforward=2048, dropout=0.1,
