@@ -3,7 +3,7 @@
 
 # DocTr
 
-![image](DocTr_github.png)
+![image](https://github.com/fh2019ustc/DocTr/blob/main/DocTr_github.png)
 
 > [DocTr: Document Image Transformer for Geometric Unwarping and Illumination Correction](https://arxiv.org/pdf/2110.12942.pdf)  
 > ACM MM 2021 Oral
