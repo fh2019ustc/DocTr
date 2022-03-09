@@ -1,4 +1,4 @@
-**Good news! Our new work exhibits state-of-the-art performances on the [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html) Benchmark dataset: 
+**Good news! Our new work exhibits state-of-the-art performances on the [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html) dataset: 
 [DocScanner: Robust Document Image Rectification with Progressive Learning](https://arxiv.org/pdf/2110.14968.pdf)**
 
 # DocTr
