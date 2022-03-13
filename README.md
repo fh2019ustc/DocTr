@@ -30,7 +30,7 @@ Any questions or discussions are welcomed!
     ```
 
 ## Evaluation
-- We use the same evaluation code as [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html) benchmark dataset based on Matlab 2019a. 
+- We use the same evaluation code as [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html) dataset based on Matlab 2019a. 
 - Please compare the scores according to your Matlab version.
 - Use the rectified images available [here](https://drive.google.com/drive/folders/1kJ34Nk18RVPwYK8mdfcQvU_67whD9tMe?usp=sharing) for reproducing the quantitative performance on the DocUNet Benchmark reported in the paper and further comparison.
 
