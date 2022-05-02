@@ -18,7 +18,6 @@ Any questions or discussions are welcomed!
 DocTr consists of two main components: a geometric unwarping transformer (GeoTr) and an illumination correction transformer (IllTr).
 - For geometric unwarping, we train the GeoTr network using the [Doc3D](https://github.com/fh2019ustc/doc3D-dataset) dataset.
 - For illumination correction, we train the IllTr network based on the [DRIC](https://github.com/xiaoyu258/DocProj) dataset.
-- The index of 30 document (60 images) of DocUNet Benchmark used for OCR evaluation is ```$ROOT/ocr_img.txt```
 
 ## Inference 
 1. Download the pretrained models from [Google Drive](https://drive.google.com/drive/folders/1eZRxnRVpf5iy3VJakJNTKWw5Zk9g-F_0?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1Cq9bfyAJ9MWwxj0CarqmKw?pwd=jmy1), and put them to `$ROOT/model_pretrained/`.
@@ -35,6 +34,7 @@ DocTr consists of two main components: a geometric unwarping transformer (GeoTr)
 - We use the same evaluation code as [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html) dataset based on Matlab 2019a. 
 - Please compare the scores according to your Matlab version.
 - Use the rectified images available from [Google Drive](https://drive.google.com/drive/folders/1kJ34Nk18RVPwYK8mdfcQvU_67whD9tMe?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1Cq9bfyAJ9MWwxj0CarqmKw?pwd=jmy1) for reproducing the quantitative performance on the DocUNet Benchmark reported in the paper and further comparison.
+- The index of 30 document (60 images) of DocUNet Benchmark used for OCR evaluation is ```$ROOT/ocr_img.txt```
 
 
 ## Citation
