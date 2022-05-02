@@ -1,3 +1,5 @@
+# The images for OCR evaluation of DocUNet Benchmark. Total 30 * 2 = 60 images.
+
 1.png
 2.png
 3.png
