@@ -108,8 +108,8 @@ def rec(opt):
             lbl = torch.from_numpy(np.stack([bm0, bm1], axis=2)).unsqueeze(0)  # h * w * 2
             
             out = F.grid_sample(torch.from_numpy(im_ori).permute(2,0,1).unsqueeze(0).float(), lbl, align_corners=True)
-            img_geo = ((out[0]*255).permute(1, 2, 0).numpy()).astype(np.uint8)
-            io.imsave(opt.gsave_path + name + '_geo' + '.png', img_geo)  # save
+            img_geo = ((out[0]*255).permute(1, 2, 0).numpy())[:,:,::-1].astype(np.uint8)
+            cv2.imwrite(opt.gsave_path + name + '_geo' + '.png', img_geo)  # save
             
             # illumination rectification
             if opt.ill_rec:
