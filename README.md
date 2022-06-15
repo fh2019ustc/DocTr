@@ -1,5 +1,5 @@
-<!-- **Good news! Our new work exhibits state-of-the-art performances on the [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html) dataset:  -->
-<!-- [DocScanner: Robust Document Image Rectification with Progressive Learning](https://arxiv.org/pdf/2110.14968.pdf)** -->
+!-- **Good news! Our new work exhibits state-of-the-art performances on the [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html) dataset:  -->
+!-- [DocScanner: Robust Document Image Rectification with Progressive Learning](https://arxiv.org/pdf/2110.14968v2.pdf)** -->
 
 # DocTr
 
@@ -50,7 +50,7 @@ If you find this code useful for your research, please use the following BibTeX 
   year={2021}
 }
 ```
-<!--
+
 ```
 @article{feng2021docscanner,
   title={DocScanner: Robust Document Image Rectification with Progressive Learning},
@@ -59,7 +59,7 @@ If you find this code useful for your research, please use the following BibTeX 
   year={2021}
 }
 ```
--->
+
 
 ## Acknowledgement
 The training and evaluation code are largely based on [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html) and [DewarpNet](https://github.com/cvlab-stonybrook/DewarpNet). Thanks for their wonderful works.
