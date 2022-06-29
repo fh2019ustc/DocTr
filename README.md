@@ -37,7 +37,7 @@ DocTr consists of two main components: a geometric unwarping transformer (GeoTr)
 - Please compare the scores according to your Matlab version.
 - Use the rectified images available from [Google Drive](https://drive.google.com/drive/folders/1kJ34Nk18RVPwYK8mdfcQvU_67whD9tMe?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1Cq9bfyAJ9MWwxj0CarqmKw?pwd=jmy1) for reproducing the quantitative performance on the [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html) reported in the paper and further comparison.
 - The index of 30 document (60 images) of [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html) used for our OCR evaluation is ```$ROOT/ocr_img.txt``` (Setting 1). Please refer to [DewarpNet](https://github.com/cvlab-stonybrook/DewarpNet) for the index of 25 document (50 images) of [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html) used for their OCR evaluation (Setting 2).
--  We provide the OCR evaluation code at ```$ROOT/OCR_eval.py```. The version of pytesseract is 0.3.8, and the version of Tesseract is recent 5.0.1.20220118. We show the performance results as follows.
+-  We provide the OCR evaluation code at ```$ROOT/OCR_eval.py```. The version of pytesseract is 0.3.8, and the version of Tesseract is recent 5.0.1.20220118. We show the performance results of DocTr as follows. For the performance of other methods, please refer to [DocScanner](https://arxiv.org/pdf/2110.14968v2.pdf).
 
 
 |      Method      |    MS-SSIM   |      LD     |     ED (Setting 1)    |       CER      |      ED (Setting 2)   |      CER     | 
