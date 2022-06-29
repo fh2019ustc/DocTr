@@ -70,4 +70,4 @@ If you find this code useful for your research, please use the following BibTeX 
 
 
 ## Acknowledgement
-The training and evaluation code are largely based on [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html), [DewarpNet](https://github.com/cvlab-stonybrook/DewarpNet), and [DocProj](https://github.com/xiaoyu258/DocProj). Thanks for their wonderful works.
+The codes are largely based on [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html), [DewarpNet](https://github.com/cvlab-stonybrook/DewarpNet), and [DocProj](https://github.com/xiaoyu258/DocProj). Thanks for their wonderful works.
