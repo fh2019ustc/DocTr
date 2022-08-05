@@ -24,11 +24,11 @@ DocTr consists of two main components: a geometric unwarping transformer (GeoTr)
 ## Inference 
 1. Download the pretrained models from [Google Drive](https://drive.google.com/drive/folders/1eZRxnRVpf5iy3VJakJNTKWw5Zk9g-F_0?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1Cq9bfyAJ9MWwxj0CarqmKw?pwd=jmy1), and put them to `$ROOT/model_pretrained/`.
 2. Put the distorted images in `$ROOT/distorted/`.
-3. Geometric unwarping:
+3. Geometric unwarping. The rectified images are saved in `$ROOT/geo_rec/` by default.
     ```
     python inference.py
     ```
-4. Geometric unwarping and illumination rectification:
+4. Geometric unwarping and illumination rectification. The rectified images are saved in `$ROOT/ill_rec/` by default.
     ```
     python inference.py --ill_rec True
     ```
