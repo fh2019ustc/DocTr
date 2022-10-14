@@ -19,7 +19,7 @@ def cal_cer_ed(path_ours, tail='_rec'):
     ed2=[]
     check=[0 for _ in range(N+1)]
     lis=[1,2,3,4,5,6,7,9,10,21,22,23,24,27,30,31,32,36,38,40,41,44,45,46,47,48,50,51,52,53]  # DocTr (Setting 1)
-    # lis=[1,9,10,19,20,21,22,23,24,27,30,31,32,34,35,36,37,38,39,40,44,45,46,47,49]  # DewarpNet (Setting 2)
+    # lis=[1,9,10,12,19,20,21,22,23,24,30,31,32,34,35,36,37,38,39,40,44,45,46,47,49] # DewarpNet (Setting 2)
     for i in range(1,N):
         if i not in lis:
             continue
