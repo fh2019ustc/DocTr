@@ -19,7 +19,7 @@ Any questions or discussions are welcomed!
 ## Training
 DocTr consists of two main components: a geometric unwarping transformer (GeoTr) and an illumination correction transformer (IllTr).
 - For geometric unwarping, we train the GeoTr network using the [Doc3D](https://github.com/fh2019ustc/doc3D-dataset) and [DTD](https://www.robots.ox.ac.uk/~vgg/data/dtd/) dataset.
-- For illumination correction, we train the IllTr network based on the [DRIC](https://github.com/xiaoyu258/DocProj) dataset.
+- For illumination correction, we train the IllTr network based on the [DocProj](https://github.com/xiaoyu258/DocProj) dataset.
 
 ## Inference 
 1. Download the pretrained models from [Google Drive](https://drive.google.com/drive/folders/1eZRxnRVpf5iy3VJakJNTKWw5Zk9g-F_0?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1Cq9bfyAJ9MWwxj0CarqmKw?pwd=jmy1), and put them to `$ROOT/model_pretrained/`.
