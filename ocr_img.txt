@@ -1,33 +1,63 @@
-# The images for OCR evaluation of DocUNet Benchmark. Total 30 * 2 = 60 images.
-# Setting 1
 
-1.png
-2.png
-3.png
-4.png
-5.png
-6.png
-7.png
-9.png
-10.png
-21.png
-22.png
-23.png
-24.png
-27.png
-30.png
-31.png
-32.png
-36.png
-38.png
-40.png
-41.png
-44.png
-45.png
-46.png
-47.png
-48.png
-50.png
-51.png
-52.png
-53.png
+The images for OCR evaluation of DocUNet Benchmark.
+# Setting 1 (Setting from DocTr)
+# Total 30 * 2 = 60 images.
+./scan/1.png
+./scan/2.png
+./scan/3.png
+./scan/4.png
+./scan/5.png
+./scan/6.png
+./scan/7.png
+./scan/9.png
+./scan/10.png
+./scan/21.png
+./scan/22.png
+./scan/23.png
+./scan/24.png
+./scan/27.png
+./scan/30.png
+./scan/31.png
+./scan/32.png
+./scan/36.png
+./scan/38.png
+./scan/40.png
+./scan/41.png
+./scan/44.png
+./scan/45.png
+./scan/46.png
+./scan/47.png
+./scan/48.png
+./scan/50.png
+./scan/51.png
+./scan/52.png
+./scan/53.png
+
+# Setting 2 (Setting from DewarpNet) 
+# Link: https://github.com/cvlab-stonybrook/DewarpNet/blob/master/eval/ocr_eval/ocr_files.txt
+# Total 25 * 2 = 50 images.
+./scan/1.png
+./scan/9.png
+./scan/10.png
+./scan/12.png
+./scan/19.png
+./scan/20.png
+./scan/21.png
+./scan/22.png
+./scan/23.png
+./scan/24.png
+./scan/30.png
+./scan/31.png
+./scan/32.png
+./scan/34.png
+./scan/35.png
+./scan/36.png
+./scan/37.png
+./scan/38.png
+./scan/39.png
+./scan/40.png
+./scan/44.png
+./scan/45.png
+./scan/46.png
+./scan/47.png
+./scan/49.png
