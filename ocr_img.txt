@@ -1,4 +1,3 @@
-
 The images for OCR evaluation of DocUNet Benchmark.
 # Setting 1 (Setting from DocTr)
 # Total 30 * 2 = 60 images.
