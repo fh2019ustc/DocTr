@@ -1,11 +1,11 @@
-:boom: **Exciting update! We have created a demo for our paper on Hugging Face Spaces, showcasing the capabilities of our DocTr. [Check it out here!](https://huggingface.co/spaces/HaoFeng2019/DocTr)**
+🔥 **Exciting update! We have created a demo for our paper on Hugging Face Spaces, showcasing the capabilities of our DocTr. [Check it out here!](https://huggingface.co/spaces/HaoFeng2019/DocTr)**
 
-:boom: **Good news! Our new work [DocTr++: Deep Unrestricted Document Image Rectification](https://github.com/fh2019ustc/DocTr-Plus) comes out, capable of rectifying various distorted document images in the wild.**
+🔥 **Good news! Our new work [DocTr++: Deep Unrestricted Document Image Rectification](https://github.com/fh2019ustc/DocTr-Plus) comes out, capable of rectifying various distorted document images in the wild.**
 
-:boom: **Good news! Our new work exhibits state-of-the-art performances on the [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html) dataset:
+🔥 **Good news! Our new work exhibits state-of-the-art performances on the [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html) dataset:
 [DocScanner: Robust Document Image Rectification with Progressive Learning](https://drive.google.com/file/d/1mmCUj90rHyuO1SmpLt361youh-07Y0sD/view?usp=share_link) with [Repo](https://github.com/fh2019ustc/DocScanner).** 
 
-:boom: **Good news! A comprehensive list of [Awesome Document Image Rectification](https://github.com/fh2019ustc/Awesome-Document-Image-Rectification) methods is available.** 
+🔥 **Good news! A comprehensive list of [Awesome Document Image Rectification](https://github.com/fh2019ustc/Awesome-Document-Image-Rectification) methods is available.** 
 
 # DocTr
 
