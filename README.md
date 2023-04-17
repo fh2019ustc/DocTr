@@ -1,4 +1,4 @@
-🔥 **Exciting update! We have created a demo for our paper on Hugging Face Spaces, showcasing the capabilities of our DocTr. [Check it out here!](https://huggingface.co/spaces/HaoFeng2019/DocTr)**
+🚀 **Exciting update! We have created a demo for our paper on Hugging Face Spaces, showcasing the capabilities of our DocTr. [Check it out here!](https://huggingface.co/spaces/HaoFeng2019/DocTr)**
 
 🔥 **Good news! Our new work [DocTr++: Deep Unrestricted Document Image Rectification](https://github.com/fh2019ustc/DocTr-Plus) comes out, capable of rectifying various distorted document images in the wild.**
 
