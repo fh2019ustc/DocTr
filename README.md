@@ -20,6 +20,14 @@
 Any questions or discussions are welcomed!
 
 
+## 🚀 Demo [(Link)](https://huggingface.co/spaces/HaoFeng2019/DocTr)
+1. Upload the distorted document image to be rectified in the left box.
+2. Click the "Submit" button.
+3. The rectified image will be displayed in the right box.
+
+![image](https://user-images.githubusercontent.com/50725551/232953325-2a6782ab-ac49-4f7b-83b7-eae850ccd5dd.png)
+
+
 ## Training
 DocTr consists of two main components: a geometric unwarping transformer (GeoTr) and an illumination correction transformer (IllTr).
 - For geometric unwarping, we train the GeoTr network using the [Doc3D](https://github.com/fh2019ustc/doc3D-dataset) and [DTD](https://www.robots.ox.ac.uk/~vgg/data/dtd/) dataset.
