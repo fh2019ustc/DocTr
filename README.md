@@ -87,4 +87,4 @@ The codes are largely based on [DocUNet](https://www3.cs.stonybrook.edu/~cvl/doc
 
 
 ## Contact
-For commercial usage, please contact Prof. Wengang Zhou and Prof. Houqiang Li via ([zhwg@ustc.edu.cn](zhwg@ustc.edu.cn)) and ([lihq@ustc.edu.cn](lihq@ustc.edu.cn)) .
+For commercial usage, please contact the email ([haof@mail.ustc.edu.cn](haof@mail.ustc.edu.cn)).
