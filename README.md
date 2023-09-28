@@ -80,6 +80,15 @@ If you find this code useful for your research, please use the following BibTeX 
 }
 ```
 
+```
+@article{feng2023doctrp,
+  title={Deep Unrestricted Document Image Rectification},
+  author={Feng, Hao and Liu, Shaokai and Deng, Jiajun and Zhou, Wengang and Li, Houqiang},
+  journal={arXiv},
+  year={2023}
+}
+```
+
 
 ## Acknowledgement
 The codes are largely based on [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html), [DewarpNet](https://github.com/cvlab-stonybrook/DewarpNet), and [DocProj](https://github.com/xiaoyu258/DocProj). Thanks for their wonderful works.
