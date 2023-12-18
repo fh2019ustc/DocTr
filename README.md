@@ -9,6 +9,11 @@
 
 # DocTr
 
+<p>
+    <a href='https://arxiv.org/pdf/2110.12942v2.pdf' target="_blank"><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+    <a href='https://huggingface.co/spaces/HaoFeng2019/DocTr' target="_blank"><img src='https://img.shields.io/badge/Online-Demo-green'></a>
+</p>
+
 ![1](https://user-images.githubusercontent.com/50725551/144743905-2b81e3ab-f2f7-4eee-aa87-f37b740f6998.png)
 ![2](https://user-images.githubusercontent.com/50725551/144743916-2c0762d0-727f-4d9c-afb2-3161dbaea47a.png)
 ![3](https://user-images.githubusercontent.com/50725551/144743919-1ff821f1-f2b1-441b-a442-f29e05d08326.png)
