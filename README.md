@@ -39,7 +39,7 @@ DocTr consists of two main components: a geometric unwarping transformer (GeoTr)
 - For illumination correction, we train the IllTr network based on the [DocProj](https://github.com/xiaoyu258/DocProj) dataset.
 
 ## Inference 
-1. Download the pretrained models from [Google Drive](https://drive.google.com/drive/folders/1eZRxnRVpf5iy3VJakJNTKWw5Zk9g-F_0?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1Cq9bfyAJ9MWwxj0CarqmKw?pwd=jmy1), and put them to `$ROOT/model_pretrained/`.
+1. Download the pretrained models from [Google Drive](https://drive.google.com/drive/folders/1eZRxnRVpf5iy3VJakJNTKWw5Zk9g-F_0?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/1pUY_vtBqNt4p6Kgf5QbCMg?pwd=h4az), and put them to `$ROOT/model_pretrained/`.
 2. Put the distorted images in `$ROOT/distorted/`.
 3. Geometric unwarping. The rectified images are saved in `$ROOT/geo_rec/` by default.
     ```
